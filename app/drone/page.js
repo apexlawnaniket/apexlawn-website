@@ -85,7 +85,7 @@ const DronePage = () => {
                       value={formData.name}
                       onChange={handleChange}
                       autoComplete="off"
-                      size={40}
+                      size={39}
                     />
                     {errors.name && (
                       <p
