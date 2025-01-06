@@ -76,7 +76,7 @@ const DronePage = () => {
             <div className={styles.formContainer}>
               {!formSubmitted ? (
                 <form onSubmit={handleSubmit}>
-                  {/* Full Name */}
+                  {/* Full Name test */}
                   <div>
                     <label htmlFor="name">Full Name *</label> <br />
                     <input
@@ -85,7 +85,7 @@ const DronePage = () => {
                       value={formData.name}
                       onChange={handleChange}
                       autoComplete="off"
-                      size={39}
+                      size={40}
                     />
                     {errors.name && (
                       <p
